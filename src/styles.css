@@ -1,0 +1,72 @@
+body
+{
+    background-color: #404070FF;
+    width: 450px;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFFFF;
+    margin-bottom: 2px;
+}
+
+.subtitle
+{
+    font-size: 12px;
+    color: #FFFFFFFF;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.text
+{
+    font-size: 16px;
+    color: #FFFFFFFF;
+    margin-left: 5px;
+}
+
+.input_box
+{
+    font-size: 14px;
+    color: #404070FF;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #202050FF;
+    background-color: #FFFFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.btn
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFFFF;
+    background-color: #202050FF;
+    border: 5px;
+    border-radius: 2px;
+    border-color: #606090FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.settings
+{
+    display: inline-block;
+    background-color: #101030FF;
+    border: 10px;
+    border-color: #101030FF;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

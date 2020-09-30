@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="49.954314"
+     inkscape:cy="637.5758"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#282850;stroke-width:2.64583333;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
+       id="rect12"
+       width="178.18552"
+       height="178.18552"
+       x="18.267849"
+       y="42.271137"
+       ry="28.125937" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="80.490234"
+       y="162.67706"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="80.490234"
+         y="162.67706"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:87.4889px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:baseline;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">T</tspan></text>
+    <rect
+       style="fill:#281e2d;fill-opacity:1;stroke:#ffffff;stroke-width:2.64583333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect898"
+       width="67.171944"
+       height="67.171944"
+       x="115.29269"
+       y="185.89397"
+       rx="14.248236"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45.1556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.58481"
+       y="235.64159"
+       id="text902"><tspan
+         sodipodi:role="line"
+         id="tspan900"
+         x="132.58481"
+         y="235.64159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.1556px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">H</tspan></text>
+    <path
+       style="fill:#ff3200;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path906"
+       sodipodi:type="arc"
+       sodipodi:cx="170.00244"
+       sodipodi:cy="186.51843"
+       sodipodi:rx="6.4153824"
+       sodipodi:ry="6.4153824"
+       sodipodi:start="0"
+       sodipodi:end="6.2815917"
+       sodipodi:arc-type="arc"
+       d="m 176.41782,186.51843 a 6.4153824,6.4153824 0 0 1 -6.41282,6.41538 6.4153824,6.4153824 0 0 1 -6.41794,-6.41027 6.4153824,6.4153824 0 0 1 6.40771,-6.42049 6.4153824,6.4153824 0 0 1 6.42305,6.40516"
+       sodipodi:open="true" />
+  </g>
+</svg>
