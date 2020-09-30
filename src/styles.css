@@ -21,6 +21,7 @@ body
 .title
 {
     text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 32px;
     color: #FFFFFFFF;
     margin-bottom: 2px;
@@ -28,6 +29,7 @@ body
 
 .subtitle
 {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #FFFFFFFF;
     text-align: center;
@@ -36,6 +38,7 @@ body
 
 .text
 {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #FFFFFFFF;
     margin-left: 5px;
@@ -43,6 +46,7 @@ body
 
 .input_box
 {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #404070FF;
     border: 5px;
@@ -58,6 +62,7 @@ body
 
 .btn
 {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFFFF;
