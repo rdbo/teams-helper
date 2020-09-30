@@ -1,10 +1,12 @@
 //teams.js - Helper functions
+//https://github.com/rdbo/teams-js
 
 //MS Teams Helper by rdbo
 
 //Global variables
 
 var tms_cancel = false;
+var tms_queue_count = 0;
 
 //Functions
 
@@ -119,6 +121,7 @@ function tms_load_member_count(dom)
 
 async function tms_hangup_on_member_count(dom, member_num)
 {
+    tms_queue_count += 1;
     await tms_load_member_count(dom);
     await tms_callback((member_count_hangup) => {
         member_count = tms_get_member_count(dom);
@@ -134,10 +137,13 @@ async function tms_hangup_on_member_count(dom, member_num)
 
         return true;
     }, member_num, 1000);
+
+    tms_queue_count -= 1;
 }
 
 async function tms_hangup_on_system_time(dom, system_time_str)
 {
+    tms_queue_count += 1;
     await tms_callback((hangup_time_str) => {
         system_time = new Date();
         system_time_str = system_time.getHours() + ":" + system_time.getMinutes() + ":" + system_time.getSeconds();
@@ -157,10 +163,14 @@ async function tms_hangup_on_system_time(dom, system_time_str)
 
         return true;
     }, system_time_str, 1000);
+
+    tms_queue_count -= 1;
 }
 
 async function tms_hangup_on_call_time(dom, hangup_time_str)
 {
+    tms_queue_count += 1;
+
     await tms_callback((hangup_time_str) => {
         call_time_str = tms_get_call_time(dom);
         call_time = time_to_secs(call_time_str);
@@ -177,6 +187,8 @@ async function tms_hangup_on_call_time(dom, hangup_time_str)
 
         return true;
     }, hangup_time_str, 1000);
+
+    tms_queue_count -= 1;
 }
 
 //popup.js
@@ -239,7 +251,7 @@ function hangup_member_count()
         tms_hangup_on_member_count(dom, in_member_count.value);
 }
 
-function stop_queues()
+async function tms_clear_queues()
 {
     tms_cancel = true;
     while(tms_queue_count != 0);
@@ -260,6 +272,9 @@ function startup()
 
     logo = document.getElementById("logo");
     logo.addEventListener("click", open_tab_repository);
+
+    btn_clear = document.getElementById("btn_clear");
+    btn_clear.addEventListener("click", tms_clear_queues);
 }
 
 startup();
