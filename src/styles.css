@@ -1,7 +1,21 @@
 body
 {
-    background-color: #404070FF;
+    background-color: #353565FF;
     width: 450px;
+    height: 550px;
+}
+
+.icon
+{
+    width: 64px;
+    height: 64px;
+    padding: 0;
+    margin: 0;
+}
+
+.icon:hover
+{
+    cursor: pointer;
 }
 
 .title
@@ -58,6 +72,22 @@ body
     margin-left: 20px;
 }
 
+.btn:hover
+{
+    background-color: #353565FF;
+}
+
+.btn:focus
+{
+    background-color: #505070FF;
+}
+
+.header
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .settings
 {
     display: inline-block;
@@ -69,4 +99,5 @@ body
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
 }

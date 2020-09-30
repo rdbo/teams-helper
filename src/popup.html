@@ -7,16 +7,30 @@
     </head>
 
     <body>
-        <p class="title">Teams Helper</p>
-        <p class="subtitle">by rdbo</p>
+        <div class="header">
+            <p class="title">Teams Helper</p>
+            <p class="subtitle">by rdbo</p>
+            <img class="icon" id="logo" src="img/drawing.svg" />
+        </div>
+
         <div class="settings">
             <p class="text">Hang Up On Call Time: </p>
-            <input id="in_call_time" class="input_box" type="text" />
+            <input id="in_call_time" class="input_box" type="text" placeholder="1:40:50" />
             <button id="btn_call_time" class="btn">Add</button>
         </div>
 
-        <script type="text/javascript" src="popup.js">
-            startup();
-        </script>
+        <div class="settings">
+            <p class="text">Hang Up On System Time: </p>
+            <input id="in_sys_time" class="input_box" type="text" placeholder="23:59:59" />
+            <button id="btn_sys_time" class="btn">Add</button>
+        </div>
+
+        <div class="settings">
+            <p class="text">Hang Up On Member Count: </p>
+            <input id="in_member_count" class="input_box" type="text" placeholder="15" />
+            <button id="btn_member_count" class="btn">Add</button>
+        </div>
+
+        <script type="text/javascript" src="popup.js"></script>
     </body>
 </html>
