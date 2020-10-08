@@ -138,7 +138,7 @@ function tms_load_member_count()
 
 async function tms_hangup_on_member_count(member_num)
 {
-    alert(`Hanging up on Member Count: ${member_num}`);
+    alert(`Hanging up on Member Count: "${member_num}"`);
 
     tms_queue_count += 1;
 
@@ -165,7 +165,7 @@ async function tms_hangup_on_member_count(member_num)
 
 async function tms_hangup_on_system_time(system_time_str)
 {
-    alert(`Hanging up on System Time: ${system_time_str}`);
+    alert(`Hanging up on System Time: "${system_time_str}"`);
 
     tms_queue_count += 1;
     try
@@ -195,7 +195,7 @@ async function tms_hangup_on_system_time(system_time_str)
 
 async function tms_hangup_on_call_time(hangup_time_str)
 {
-    alert(`Hanging up on Call Time: ${hangup_time_str}`);
+    alert(`Hanging up on Call Time: "${hangup_time_str}"`);
 
     tms_queue_count += 1;
     try

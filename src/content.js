@@ -37,10 +37,12 @@ chrome.runtime.onMessage.addListener(
 
         console.log(`Received message: ${request.msg}`);
 
-        load_tms();
-
         switch(request.msg)
         {
+            case "bg_load_tms":
+                load_tms();
+                break;
+
             case "bg_hangup_call_time":
                 console.log(`Hanging up on call time: ${request.arg0}`);
                 inject_code(`tms_hangup_on_call_time("${request.arg0}");`);

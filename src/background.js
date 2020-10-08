@@ -1,3 +1,10 @@
+function bg_load_tms()
+{
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+        chrome.tabs.sendMessage(tabs[0].id, {msg: "bg_load_tms" });
+    });
+}
+
 function bg_hangup_call_time(time)
 {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
@@ -33,6 +40,10 @@ chrome.runtime.onMessage.addListener(
 
         switch(request.msg)
         {
+            case "load_tms":
+                bg_load_tms();
+                break;
+
             case "hangup_call_time":
                 console.log(`Requesting hangup on call time '${request.arg0}'`);
                 bg_hangup_call_time(request.arg0);

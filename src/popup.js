@@ -45,6 +45,8 @@ function init_popup()
 
     btn_clear = document.getElementById("btn_clear");
     btn_clear.addEventListener("click", clear_queues);
+
+    chrome.runtime.sendMessage({msg: "load_tms"});
 }
 
 init_popup();
