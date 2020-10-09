@@ -158,7 +158,7 @@ async function tms_hangup_on_member_count(member_num)
 
             return true;
         }, member_num, 1000);
-    } catch(e) {}
+    } catch(e) { alert(`Error: ${e}`); }
 
     tms_queue_count -= 1;
 }
@@ -189,7 +189,7 @@ async function tms_hangup_on_system_time(system_time_str)
 
             return true;
         }, system_time_str, 1000);
-    } catch(e) {  }
+    } catch(e) { alert(`Error: ${e}`); }
     tms_queue_count -= 1;
 }
 
@@ -216,7 +216,7 @@ async function tms_hangup_on_call_time(hangup_time_str)
 
             return true;
         }, hangup_time_str, 1000);
-    } catch(e) {  }
+    } catch(e) { alert(`Error: ${e}`); }
 
     tms_queue_count -= 1;
 }
